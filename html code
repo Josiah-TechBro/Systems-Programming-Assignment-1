@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+            <nav>
+                <a href="example.html"><img src="\Pictures\images\nyamai.png"></a>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i> 
+                    <ul>
+                        <li><a href="example.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>         
+            </nav>
+        <div class="text-box">
+            <h1><b>BETACODES ANALYTICS</b></h1>
+            <p>We are the number one company in offering data analytics services,<br>
+                with our proffesional experts ready to grow your business.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>   
+    </section>
+    <section class="course">
+        <h1>SERVICES WE OFFER</h1>
+        <p>We offer the following services.</p>
+    <div class="row">    
+        <div class="course-col">
+            <h2>Data Analytics</h2>
+            <p>We do data visualization,data analysis.</p>
+        </div>
+        <div class="course-col">
+            <h2>Artifial intelligence</h2>
+            <p>We create good ML models.</p>
+        </div>
+        <div class="course-col">
+            <h2>Software Engineering</h2>
+            <p>We also help you create mobile apps and website and help you to optimize them.</p>
+        </div>
+    </div>    
+    </section>
+    <section class="founder">
+        <h4><b>FOUNDER.</b></h4>
+        <p><b>JOSIAH NYAMAI</b></p>
+        <img src="\Pictures\josiah.jpg" alt="Our founder" width="150" height="200">
+        <p>Am an Artifial intelligence Engineer with 4yrs + experience.Am passionate about helping business make profits with use of Data.</p>
+    </section>
+    <section class="about">
+        <h3><b>ABOUT US</b></h3>
+        <p>We are ready to work with you and offer you the best services.<br>We can do any data job you send to us.</p><br>
+        <p>Some Companies we have worked with are:<br>1.Pwani Oil<br>2.Riisih Investment<br>3.Diamond Trust Bank<br>4.Sidian Bank<br></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Betacodes Analytics Company. All rights reserved.</p>
+    </footer>
+
+    <script>
+
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+    </body>
+</html>
