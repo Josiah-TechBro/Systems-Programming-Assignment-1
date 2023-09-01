@@ -8,29 +8,37 @@
     </head>
     <body>
     <section class="header">
-            <nav>
-                <a href="example.html"><img src="\Pictures\images\nyamai.png"></a>
-                <i class="fa fa-bars" onclick="showmenu()"></i>
-                <div class="nav-links" id="navlinks">
-                    <i class="fa fa-times" onclick="hidemenu()"></i> 
-                    <ul>
-                        <li><a href="example.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="services.html">SERVICES</a></li>
-                        <li><a href="">CONTACT</a></li>
-                    </ul>
-                </div>         
-            </nav>
-        <div class="text-box">
-            <h1><b>BETACODES ANALYTICS</b></h1>
-            <p>We are the number one company in offering data analytics services,<br>
-                with our proffesional experts ready to grow your business.</p>
-            <a href="" class="hero-btn">Visit us to know more</a>
-        </div>   
+        <div class="top">
+            <div class="head">
+              <img src="C:\Users\PC\Desktop\new.png" width="150" height="100">
+            </div>
+            <div class="tail">
+              <h1>Welcome to Betacodes Analytics Company</h1>
+            </div>
+        </div>    
+    </section>
+    <section class="home">
+        <nav>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="example.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>         
+            <div class="text-box">
+                <h1><b>BETACODES ANALYTICS</b></h1>
+                <p>Welcome to BETACODES, your trusted partner for unlocking the true potential of your data. In today's data-driven world, information is power, and we specialize in turning raw data into actionable insights. Our team of dedicated data experts is here to help you navigate the complexities of your data landscape. Whether you're looking to optimize operations, make informed decisions, or gain a competitive edge, we have the tools and expertise to transform your data into a strategic asset. At BETACODES, we're not just about numbers; we're about driving real-world impact. Explore our range of data analytics services, and let's embark on a journey to harness the full potential of your data, together. Welcome to a future where data empowers your success.</p>
+            <a href="about.html" class="hero-btn">Visit us to know more</a>
+             </div>     
+        </nav>
     </section>
     <section class="course">
         <h1>SERVICES WE OFFER</h1>
-        <p>We offer the following services.</p>
+        <p>We offer a comprehensive suite of data analytics services tailored to meet your unique needs. Our expertise spans data collection, analysis, visualization, and actionable insights. Whether you're seeking predictive modeling, data-driven decision support, or performance optimization, our team of skilled analysts is here to transform your data into a strategic asset. </p>
     <div class="row">    
         <div class="course-col">
             <h2>Data Analytics</h2>
@@ -47,15 +55,34 @@
     </div>    
     </section>
     <section class="founder">
-        <h4><b>FOUNDER.</b></h4>
-        <p><b>JOSIAH NYAMAI</b></p>
-        <img src="\Pictures\josiah.jpg" alt="Our founder" width="150" height="200">
-        <p>Am an Artifial intelligence Engineer with 4yrs + experience.Am passionate about helping business make profits with use of Data.</p>
-    </section>
+        <h4><b>C.E.O</b></h4>
+        <h6><b>JOSIAH NYAMAI</b></h6>
+        <div class="align">
+            <div class="first">
+                <img src="C:\Users\PC\Desktop\newme.png" alt="Our founder" width="450" height="300">
+            </div>
+            <div class="second">
+                <p>As the CEO of Betacodes, my passion for data-driven innovation has been the driving force behind our mission. With a background in data science and machine learning, I established this company to empower organizations through data-driven solutions. Guided by a commitment to excellence and staying at the forefront of industry trends, I lead a dedicated team in delivering actionable insights that transform data into strategic advantage. Together, we're here to help you navigate the data landscape, enabling smarter decisions and sustainable growth for your organization. Welcome to the future of data analytics at BETACODES.</p>        </p>
+            </div>
+        </div>
+        </section>
     <section class="about">
         <h3><b>ABOUT US</b></h3>
-        <p>We are ready to work with you and offer you the best services.<br>We can do any data job you send to us.</p><br>
-        <p>Some Companies we have worked with are:<br>1.Pwani Oil<br>2.Riisih Investment<br>3.Diamond Trust Bank<br>4.Sidian Bank<br></p>
+        <p>Welcome to our company, where data transforms into insights and decisions. At Betacodes Analytics, we are passionate about harnessing the power of data to drive innovation and create value for our clients. With a team of highly skilled data analysts and experts, we specialize in deciphering complex data sets to uncover hidden patterns, trends, and actionable intelligence. Our mission is to empower organizations with data-driven solutions that enhance efficiency, inform strategic choices, and ultimately, achieve measurable results. With a commitment to excellence, integrity, and cutting-edge technology, we are dedicated to helping you make smarter decisions through data. Explore the possibilities with us, and let's embark on a journey of data-driven success together.</p><br><br>
+        <img src="C:\Users\PC\Desktop\newpicha.png" alt="sisi">
+    </section>
+    <section class="Clients">
+        <h5>HAPPY CLIENTS</h5>
+        <div class="pattern">
+            <ul>
+                <li>1.Pwani Oil</li>
+                <li>2.Sidian Bank</li>
+                <li>3.Diamond Trust Bank</li>
+                <li>4.Dr.Matress</li>
+                <li>5.Amtec</li>
+                <li>6.Hp Kenya Store</li>
+            </ul>
+        </div>
     </section>
     <footer>
         <p>&copy; 2023 Betacodes Analytics Company. All rights reserved.</p>
