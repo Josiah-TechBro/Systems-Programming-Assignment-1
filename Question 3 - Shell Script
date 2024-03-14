@@ -11,7 +11,8 @@ elif [ $basic_pay -ge 15000 ];then
 else
     tax=0
 fi
-             
+
+
 net_pay=$(echo "$basic_pay-$tax" | bc)
              
 echo "Employee name: $name"
