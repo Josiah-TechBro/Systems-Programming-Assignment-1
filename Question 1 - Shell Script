@@ -13,6 +13,7 @@ calculate_bill() {
     fi
 
     echo $total_bill  
+
 }
 
 read -p "Enter CustomerID: " customer_id
